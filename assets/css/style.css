@@ -300,3 +300,14 @@ footer {
         position: static;
     }
 }
+
+.social_link {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* jarak antar tombol */
+    padding: 0;
+}
+
+.social_item {
+    list-style: none;
+}
