@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perbedaan Website Statis dan Dinamis</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>BELAJAR WEB DEVELOPMENT</h1>
+            <p>Perbedaan Website Statis dan Dinamis</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#web_statis">Web Statis</a></li>
+                <li><a href="#web_dinamis">Web Dinamis</a></li>
+                <li><a href="https://www.dicoding.com/users/rifqi_alvanzoo/academies" target="_blank">Profil Dicoding
+                        Saya</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <article id="web_statis">
+                <h2>Website Statis</h2>
+                <p>Website statis adalah jenis website yang kontennya bersifat tetap atau permanen, di mana setiap
+                    pengunjung akan melihat tampilan dan isi yang sama persis setiap saat. Website ini dibangun hanya
+                    dengan menggunakan bahasa pemrograman sisi klien (client-side) seperti HTML dan CSS, terkadang
+                    ditambah sedikit JavaScript untuk animasi sederhana, tanpa melibatkan pemrosesan basis data
+                    (database) atau bahasa server yang kompleks.
+                </p>
+                <img src="assets/images/web_statis.png" alt="Ilustrasi Website Statis">
+                <p>
+                    Secara teknis, ketika seseorang mengakses website statis, server hanya perlu mengirimkan file yang
+                    sudah tersedia langsung ke browser pengguna. Karena tidak ada proses "merakit" data secara mendadak,
+                    website ini biasanya sangat cepat dan ringan. Namun, setiap kali pemilik ingin mengubah informasi di
+                    dalamnya, mereka harus mengedit kode file tersebut secara manual, sehingga kurang praktis untuk
+                    situs yang butuh sering diperbarui.
+                </p>
+
+                <section>
+                    <h3>Kelebihan Website Statis</h3>
+                    <p>
+                        Website statis menawarkan beberapa keunggulan utama, terutama dari sisi teknis dan efisiensi
+                        operasional:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Kecepatan Akses yang Luar Biasa:</strong> Karena tidak perlu memproses data dari
+                            database, server
+                            bisa langsung mengirimkan file ke pengunjung. Hal ini membuat waktu muat halaman jauh lebih
+                            cepat dibandingkan website dinamis.
+                        </li>
+                        <li>
+                            <strong>Keamanan yang Lebih Tinggi:</strong> Tanpa adanya basis data atau bahasa pemrograman
+                            sisi server,
+                            celah untuk serangan siber seperti SQL Injection hampir tidak ada. Website ini jauh lebih
+                            sulit untuk diretas.
+                        </li>
+                        <li>
+                            <strong>Biaya Hosting Lebih Murah:</strong> Website statis membutuhkan sumber daya server
+                            yang sangat kecil.
+                            Banyak layanan menyediakan hosting gratis atau sangat murah untuk jenis website ini (seperti
+                            GitHub Pages atau Netlify).
+                        </li>
+                        <li>
+                            <strong>Pemeliharaan yang Sangat Mudah:</strong> Anda tidak perlu khawatir tentang pembaruan
+                            software server,
+                            database, atau plugin keamanan secara rutin. Sekali diunggah, website akan terus berjalan
+                            stabil.
+                        </li>
+                        <li>
+                            <strong>Skalabilitas Tinggi:</strong> Website ini sangat kuat menahan lonjakan pengunjung
+                            yang besar secara
+                            tiba-tiba tanpa membuat server menjadi lambat atau down.
+                        </li>
+                    </ul>
+
+                    <h3>Kekurangan Website Statis</h3>
+                    <p>
+                        Kekurangan utama website statis terletak pada keterbatasan fungsionalitas dan efisiensi
+                        pengelolaannya, terutama untuk penggunaan jangka panjang:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Pembaruan Konten yang Rumit:</strong> Setiap kali ingin mengubah isi website, Anda
+                            harus mengedit
+                            kode HTML secara manual. Jika perubahan dilakukan pada elemen global (seperti menu), Anda
+                            harus mengubahnya di setiap file satu per satu.
+                        </li>
+                        <li>
+                            <strong>Minim Interaktivitas:</strong> Website ini tidak mendukung fitur yang memerlukan
+                            input pengguna
+                            secara kompleks, seperti sistem login, kolom komentar, keranjang belanja, atau fitur
+                            pencarian internal.
+                        </li>
+                        <li>
+                            <strong>Tidak Ada Personalisasi:</strong> Semua pengunjung akan melihat konten yang sama
+                            persis. Website
+                            tidak bisa menyesuaikan tampilan berdasarkan lokasi, waktu, atau preferensi pengguna
+                            tertentu.
+                        </li>
+                        <li>
+                            <strong>Sulit Dikelola untuk Skala Besar:</strong> Semakin banyak jumlah halamannya, semakin
+                            sulit website
+                            statis untuk dikelola. Hal ini membuatnya tidak cocok untuk blog besar, portal berita, atau
+                            toko online.
+                        </li>
+                        <li>
+                            <strong>Butuh Kemampuan Teknis:</strong> Karena tidak memiliki panel admin (CMS), pengelola
+                            website harus
+                            memahami dasar-dasar pemrograman (coding) untuk sekadar mengganti teks atau gambar.
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article id="web_dinamis">
+                <h2>Website Dinamis</h2>
+                <p>
+                    Website dinamis adalah jenis situs yang kontennya dapat berubah secara otomatis dan bersifat
+                    interaktif karena didukung oleh basis data serta bahasa pemrograman sisi server. Berbeda dengan
+                    situs statis, website ini mampu menampilkan informasi yang berbeda kepada setiap pengunjung
+                    berdasarkan interaksi mereka, seperti saat melakukan pencarian, melakukan pembelian di toko online,
+                    atau masuk ke akun pribadi.
+                </p>
+                <img src="assets/images/web_dinamis.png" alt="Ilustrasi Website Dinamis">
+                <p>
+                    Keunggulan utamanya terletak pada kemudahan pengelolaan melalui sistem CMS, sehingga pemilik web
+                    bisa memperbarui ribuan halaman sekaligus tanpa perlu mengubah kode satu per satu. Hal ini
+                    menjadikannya solusi standar untuk platform modern yang membutuhkan pembaruan data secara real-time,
+                    seperti media sosial, portal berita, dan aplikasi berbasis web lainnya.
+                </p>
+                <section>
+                    <h3>Kelebihan Website Dinamis</h3>
+                    <p>
+                        Berikut adalah beberapa kelebihan utama dari website dinamis:
+                    </p>
+                    <ul>
+                        <li><strong>Pengelolaan Konten Sangat Mudah:</strong> Menggunakan panel admin atau CMS (seperti
+                            WordPress), sehingga siapa pun bisa menambah atau mengubah isi web tanpa perlu mengerti
+                            bahasa pemrograman.
+                        </li>
+                        <li><strong>Fitur Interaktif yang Lengkap:</strong> Mendukung fitur-fitur kompleks yang
+                            membutuhkan interaksi pengguna, seperti kolom komentar, formulir pendaftaran, sistem login,
+                            dan forum diskusi.
+                        </li>
+                        <li><strong>Personalisasi Pengguna:</strong> Mampu menyajikan konten yang berbeda untuk setiap
+                            pengunjung, misalnya rekomendasi produk berdasarkan riwayat belanja atau tampilan bahasa
+                            berdasarkan lokasi pengguna.
+                        </li>
+                        <li><strong>Pembaruan Otomatis secara Massal:</strong> Anda bisa mengubah tampilan atau data di
+                            ribuan halaman sekaligus hanya dengan satu kali klik melalui basis data, sangat efisien
+                            untuk situs skala besar.
+                        </li>
+                        <li><strong>Kemampuan E-Commerce:</strong> Memungkinkan adanya fitur keranjang belanja,
+                            integrasi pembayaran online, dan manajemen stok barang secara real-time.
+                        </li>
+                        <li><strong>Ramah Mesin Pencari (SEO):</strong> Karena konten sering diperbarui dan lebih kaya
+                            informasi, website dinamis cenderung lebih mudah disukai oleh Google untuk mendapatkan
+                            peringkat yang baik.
+                        </li>
+                    </ul>
+
+                    <h3>Kekurangan Website Dinamis</h3>
+                    <p>
+                        Meskipun sangat fleksibel, website dinamis juga memiliki beberapa kekurangan yang perlu
+                        dipertimbangkan:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Biaya Lebih Mahal:</strong> Pembuatannya membutuhkan keahlian teknis yang lebih
+                            tinggi (pengembang backend) dan biaya hosting yang lebih mahal karena memerlukan spesifikasi
+                            server yang lebih kuat untuk memproses data.
+                        </li>
+                        <li>
+                            <strong>Waktu Muat (Loading) Lebih Lambat:</strong> Server harus memproses kode dan
+                            mengambil data dari database setiap kali ada permintaan, sehingga biasanya tidak secepat
+                            website statis yang filenya sudah "siap saji".
+                        </li>
+                        <li>
+                            <strong>Risiko Keamanan Lebih Tinggi:</strong> Adanya basis data dan input pengguna membuka
+                            celah bagi peretas, seperti serangan SQL Injection atau Cross-Site Scripting (XSS), jika
+                            sistem keamanannya tidak diperbarui secara rutin.
+                        </li>
+                        <li>
+                            <strong>Pemeliharaan yang Rumit:</strong> Anda harus rutin melakukan pembaruan pada bahasa
+                            pemrograman, database, plugin, dan sistem keamanan agar website tetap berjalan lancar dan
+                            terhindar dari serangan siber.
+                        </li>
+                        <li>
+                            <strong>Ketergantungan pada Server dan Database:</strong> Jika server database mengalami
+                            gangguan, website tidak akan bisa menampilkan kontennya sama sekali, meskipun server
+                            utamanya masih berjalan.
+                        </li>
+                    </ul>
+                </section>
+            </article>
+        </div>
+
+        <aside>
+            <article>
+                <header>
+                    <h2>Profil Penulis</h2>
+                    <figure>
+                        <img src="assets/images/profil.jpeg" alt="Foto Profil Rifqi Alvanzo">
+                        <figcaption>Rifqi Alvanzo Atthallah</figcaption>
+                    </figure>
+                </header>
+
+                <section>
+                    <h3>Tentang Saya</h3>
+                    <p>
+                        Halo! Saya adalah seorang antusias <i>Web Development</i> yang sedang belajar membangun
+                        website. Saat ini, saya sedang memperdalam ilmu pemrograman web dasar untuk menjadi seorang
+                        <i>Full-Stack Developer</i>.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Kunjungi Instagram Saya</h3>
+                    <ul>
+                        <li>
+                            <a href="https://instagram.com/alvanzoo_" target="_blank">
+                                <img src="assets/images/logo_ig.png" alt="Logo Instagram">
+                                Instagram
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 <strong>Rifqi Alvanzo Atthallah</strong></p>
+        <p>Proyek Akhir Belajar Dasar Pemrograman Web - Dicoding Indonesia</p>
+    </footer>
+</body>
+
+</html>

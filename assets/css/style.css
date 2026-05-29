@@ -1,0 +1,302 @@
+/* --- RESET DASAR --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* Membuat efek scroll lebih halus ketika menu diklik */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #16242b;
+    color: #b8c6cf;
+    line-height: 1.7;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+}
+
+/* --- HEADER & NAVIGASI ---*/
+body > header {
+    background-color: rgba(17, 28, 34, 0.95); 
+    backdrop-filter: blur(10px); 
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+body > header h1 {
+    font-size: 1.8rem;
+    color: #00ffd5;
+    text-shadow: 0 0 10px rgba(0, 255, 213, 0.7), 0 0 20px rgba(0, 255, 213, 0.5);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+body > header p {
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: 0.3s all ease;
+}
+
+nav ul li a:hover {
+    color: #00ffd5;
+    text-shadow: 0 0 10px rgba(0, 255, 213, 0.7), 0 0 20px rgba(0, 255, 213, 0.5);
+}
+
+/* --- LAYOUT UTAMA --- */
+main {
+    display: flex;
+    gap: 40px; 
+    max-width: 1200px; 
+    margin: 40px auto;
+    padding: 0 20px;
+    align-items: flex-start;
+}
+
+#content {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-width: 0;
+}
+
+aside {
+    flex: 0 0 320px; 
+    position: sticky;
+    top: 120px; 
+}
+
+/* --- KOTAK ARTIKEL (CARDS) --- */
+article {
+    background-color: #1f3039;
+    padding: 35px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: 0.3s ease;
+    scroll-margin-top: 130px; 
+}
+
+#content article:hover {
+    border-color: #00ffd5;
+    box-shadow: 0 0 20px rgba(0, 255, 213, 0.4);
+}
+
+article h2 {
+    color: #00ffd5;
+    text-shadow: 0 0 10px rgba(0, 255, 213, 0.7), 0 0 20px rgba(0, 255, 213, 0.5);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+article h3 {
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+article p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#content section ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#content section ul li {
+    margin-bottom: 10px;
+}
+
+#content section ul li strong {
+    color: #ffffff;
+}
+
+#content img {
+    margin: 30px auto;
+    border: 1px solid rgba(255,255,255,0.1);
+    background-color: white; 
+}
+
+/* --- PROFIL ASIDE --- */
+aside {
+    flex: 0 0 320px; 
+    position: sticky;
+    top: 120px; 
+    
+    /* --- TAMBAHAN BARU UNTUK SCROLL BAR --- */
+    max-height: calc(100vh - 140px); /* Membatasi tinggi agar tidak menembus batas bawah layar */
+    overflow-y: auto; /* Memunculkan scroll otomatis jika isinya kepanjangan */
+}
+
+/* --- BONUS: Mempercantik tampilan Scrollbar pada Aside agar sesuai tema Neon --- */
+aside::-webkit-scrollbar {
+    width: 6px; /* Mengatur lebar scrollbar */
+}
+
+aside::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05); /* Warna jalur latar belakang scroll */
+    border-radius: 10px;
+}
+
+aside::-webkit-scrollbar-thumb {
+    background-color: #00ffd5; /* Warna batang scrollnya (Cyan Neon) */
+    border-radius: 10px;
+}
+
+aside article {
+    text-align: center;
+    padding: 30px;
+}
+
+aside article header {
+    position: static;
+    background-color: transparent;
+    padding: 0;
+    display: block;
+    backdrop-filter: none;
+    border: none;
+}
+
+aside article header h2 {
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+}
+
+aside figure img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 213, 0.4);
+    border: 2px solid #00ffd5;
+}
+
+aside figcaption {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+aside section {
+    text-align: left;
+    margin-top: 25px;
+}
+
+aside section h3 {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+aside section p {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+aside section ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+/* Tombol Sosial Media */
+aside section ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #111c22;
+    font-weight: bold;
+    padding: 10px 25px;
+    background-color: #00ffd5;
+    border-radius: 30px;
+    transition: 0.3s;
+    box-shadow: 0 0 20px rgba(0, 255, 213, 0.4);
+}
+
+aside section ul li a:hover {
+    background-color: #ffffff;
+    box-shadow: 0 0 25px #ffffff;
+}
+
+aside section ul li a img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    border-radius: 0;
+    filter: brightness(0);
+    box-shadow: none;
+    border: none;
+}
+
+/* --- FOOTER --- */
+footer {
+    background-color: #111c22;
+    color: #b8c6cf;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+/* --- MEDIA QUERY --- */
+@media screen and (max-width: 900px) {
+    body > header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    #content, aside {
+        width: 100%;
+        flex: auto; 
+    }
+
+    aside {
+        position: static;
+    }
+}
