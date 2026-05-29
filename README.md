@@ -1,11 +1,11 @@
 # 🌐 Web Statis & Dinamis - Rifqi Alvanzo
 
-Selamat datang di repository project **Web Statis & Dinamis** 🚀
+Selamat datang di repository project **Web Statis & Dinamis** 
 Project ini dibuat sebagai bagian dari pembelajaran pengembangan web, dengan fokus pada implementasi HTML, CSS, dan konsep dasar web modern.
 
 ---
 
-## 📌 Deskripsi Project
+## Deskripsi Project
 
 Project ini merupakan website sederhana yang menampilkan perbandingan antara **web statis** dan **web dinamis**, lengkap dengan penjelasan, kelebihan, kekurangan, serta contoh implementasinya.
 
@@ -17,7 +17,7 @@ Selain itu, project ini juga dilengkapi dengan:
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 
 * HTML5
 * CSS3
@@ -26,7 +26,7 @@ Selain itu, project ini juga dilengkapi dengan:
 
 ---
 
-## 📂 Struktur Folder
+##  Struktur Folder
 
 ```
 web-statis-dinamis-rifqi-alvanzo/
@@ -46,16 +46,16 @@ web-statis-dinamis-rifqi-alvanzo/
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
-* 📖 Penjelasan Web Statis & Dinamis
-* 🎨 Desain responsive sederhana
-* 🔗 Social media links (LinkedIn, GitHub, Instagram)
-* 🖼️ Ilustrasi visual untuk mempermudah pemahaman
+*  Penjelasan Web Statis & Dinamis
+*  Desain responsive sederhana
+*  Social media links (LinkedIn, GitHub, Instagram)
+*  Ilustrasi visual untuk mempermudah pemahaman
 
 ---
 
-## 🚀 Cara Menjalankan Project
+##  Cara Menjalankan Project
 
 1. Clone repository ini:
 
@@ -73,7 +73,7 @@ web-statis-dinamis-rifqi-alvanzo/
 
 ---
 
-## 📈 Pengembangan Kedepan
+##  Pengembangan Kedepan
 
 Project ini masih dapat dikembangkan lebih lanjut, seperti:
 
@@ -84,7 +84,7 @@ Project ini masih dapat dikembangkan lebih lanjut, seperti:
 
 ---
 
-## 👨‍💻 Tentang Saya
+##  Tentang Saya
 
 Saya adalah seorang pembelajar di bidang web development yang sedang mengembangkan kemampuan dalam membangun website modern dan interaktif.
 
@@ -92,7 +92,7 @@ Saya adalah seorang pembelajar di bidang web development yang sedang mengembangk
 
 ---
 
-## 📬 Kontak
+##  Kontak
 
 * GitHub: https://github.com/rifqialvanzoatthallah
 * LinkedIn: https://www.linkedin.com
@@ -100,9 +100,9 @@ Saya adalah seorang pembelajar di bidang web development yang sedang mengembangk
 
 ---
 
-## ⭐ Penutup
+##  Penutup
 
-Terima kasih telah mengunjungi repository ini 🙌
+Terima kasih telah mengunjungi repository ini 
 Jangan lupa untuk ⭐ jika project ini bermanfaat!
 
 ---
